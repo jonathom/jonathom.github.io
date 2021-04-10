@@ -1,3 +1,3 @@
-# jonathom.github.io
+# EO
 
-This is a readme.
+Some remotely sensed images to look at.

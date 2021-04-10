@@ -29,6 +29,13 @@ img {
     height: 90vh;
 }
 
+@media (max-width:767px) {
+    img { 
+        width: 80vw;
+        height: auto;
+    }
+}
+
 .center-block {
     display: block;
     margin-left: auto;
