@@ -6,13 +6,13 @@ body {
 a:link {
     color: red;
   }
-  a:visited {
+a:visited {
     color: green;
   }
-  a:hover {
+a:hover {
     color: hotpink;
   }
-  a:active {
+a:active {
     color: blue;
   }
   
@@ -20,7 +20,17 @@ h3 {
     color: black;
 }
   
-  p {
+p {
     font-family: verdana;
     font-size: 20px;
-  }
+}
+
+img {
+    height: 90vh;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
