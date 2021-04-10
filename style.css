@@ -1,0 +1,26 @@
+body {
+    background-color: #eeede7;
+  }
+
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  a:visited {
+    color: green;
+  }
+  a:hover {
+    color: hotpink;
+  }
+  a:active {
+    color: blue;
+  }
+  
+h3 {
+    color: black;
+}
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
