@@ -20,32 +20,46 @@
 
     <div class="container-fluid">
         <h3>EO</h3>
+        <div class="text-left">
+            <a href="#" onclick="setsubdir('Iceland', 5)">Iceland</a>
+            
+            <a href="#" onclick="setsubdir('Pantanal', 7)">Pantanal</a>
+          </div>
     </div>
 
     <div class="container-fluid">
         <div class="row">
           <div class="col">
-              <div class="text-left">
-                <a href="#" onclick="setsubdir('Iceland', 5)">Iceland</a>
-                <br>  
-                <a href="#" onclick="setsubdir('Pantanal', 7)">Pantanal</a>
-              </div>
+              <div class="container d-flex h-100">
+                <div class="row justify-content-center align-self-center center-block">
+                    <a href='#' onclick="prev()">
+                        <img id="nextbutton" src="prev.png" height="50px" width="50px">
+                    </a>
+                </div>
+            </div>
           </div>
           <div class="col">
             <a href='#' onclick="next()">
-                <img class="center-block" id="eo" src="pictures/Iceland/1.png">
+                <img class="img-eo center-block" id="eo" src="pictures/Iceland/1.png">
             </a>
           </div>
           <div class="col">
+            <div class="container d-flex h-100">
+                <div class="row justify-content-center align-self-center center-block">
+                    <a href='#' onclick="next()">
+                        <img id="nextbutton" src="next.png" height="50px" width="50px">
+                    </a>
+                </div>
+            </div>
+            
           </div>
         </div>
     </div>
 
-    <footer class="footer">
-        <div class="text-center">
-            Contains modified Copernicus imagery. Jonathan Bahlmann 2021.
-        </div>
-    </footer>
+
+    <div class="navbar fixed-bottom">
+        Contains modified Copernicus imagery. Jonathan Bahlmann 2021.
+    </div>
 
     <script>
   

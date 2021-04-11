@@ -1,6 +1,14 @@
 body {
     background-color: #eeede7;
+    padding-bottom: 70px;
   }
+
+.navbar {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
 
 /* unvisited link */
 a:link {
@@ -25,12 +33,12 @@ p {
     font-size: 20px;
 }
 
-img {
-    height: 90vh;
+.img-eo {
+    height: 85vh;
 }
 
 @media (max-width:767px) {
-    img { 
+    .img-eo { 
         width: 80vw;
         height: auto;
     }
