@@ -8,6 +8,12 @@ body {
     margin:0 auto;
     display: block;
     text-align: center;
+    background-color: #eeede7;
+}
+
+.navbutton {
+    width: 2vw;
+    height: 2vw;
 }
 
 /* unvisited link */
@@ -39,8 +45,12 @@ p {
 
 @media (max-width:767px) {
     .img-eo { 
-        width: 80vw;
+        width: 70vw;
         height: auto;
+    }
+    .navbutton {
+        width: 5vw;
+        height: 5vw;
     }
 }
 
