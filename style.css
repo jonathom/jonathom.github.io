@@ -46,7 +46,7 @@ p {
     width: auto;
 }
 
-@media (max-width:1000px) {
+@media (max-width:1055px) {
     .img-eo { 
         width: 70vw;
         height: auto;
