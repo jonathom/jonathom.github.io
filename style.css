@@ -41,6 +41,7 @@ p {
 
 .img-eo {
     height: 85vh;
+    width: auto;
 }
 
 @media (max-width:767px) {
@@ -58,4 +59,5 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
- }
+    align-items: center;
+}
