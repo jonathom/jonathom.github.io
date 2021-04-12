@@ -79,9 +79,9 @@
             if (nr > maxpic) {
                 nr = 1;
             }
-            let link = "pictures/" + subdir + "/" + nr + ".png";
+            let link = "pictures/" + subdir + "/" + nr + ".jpg";
             img.src = link;
-            console.log(subdir)
+            console.log(link)
         }
 
         prev = function() {
@@ -89,14 +89,14 @@
             if (nr <= 0) {
                 nr = maxpic;
             }
-            let link = "pictures/" + subdir + "/" + nr + ".png";
+            let link = "pictures/" + subdir + "/" + nr + ".jpg";
             img.src = link;
         }
 
         setsubdir = function(folder, mp) {
             subdir = folder;
             maxpic = mp;
-            let link = "pictures/" + subdir + "/1.png";
+            let link = "pictures/" + subdir + "/1.jpg";
             img.src = link;
             nr = 1;
         }
