@@ -14,8 +14,55 @@ body {
 .navbutton {
     width: 2vw;
     height: 2vw;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.center-height {
+    height: 85vh;
+    display: inline-block;
+}
+  
+h3 {
+    color: black;
+}
+  
+p {
+    font-family: verdana;
+    font-size: 18px;
+}
+
+.img-eo {
+    max-height: 85vh;
+    max-width: 45vw;
+}
+
+.desc {
+    margin-top: 70vh;
+}
+
+@media (max-width:575px) {
+    .img-eo { 
+        max-width: 70vw;
+        height: auto;
+    }
+    .center-height {
+        height: 110vw;
+    }
+    .navbutton {
+        width: 5vw;
+        height: 5vw;
+    }
+    .desc {
+        margin-top: 0;
+    }
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
 }
 
 /* unvisited link */
@@ -31,35 +78,3 @@ a:hover {
 a:active {
     color: blue;
   }
-  
-h3 {
-    color: black;
-}
-  
-p {
-    font-family: verdana;
-    font-size: 20px;
-}
-
-.img-eo {
-    height: 85vh;
-    width: auto;
-}
-
-@media (max-width:1055px) {
-    .img-eo { 
-        width: 70vw;
-        height: auto;
-    }
-    .navbutton {
-        width: 5vw;
-        height: 5vw;
-    }
-}
-
-.center-block {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-}

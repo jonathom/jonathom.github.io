@@ -21,23 +21,36 @@
     <div class="container-fluid">
         <h3>EO</h3>
         <div class="text-left">
-            <a href="#" onclick="setsubdir('Iceland', 5)">Iceland</a>
-            
-            <a href="#" onclick="setsubdir('Pantanal', 7)">Pantanal</a>
+
           </div>
     </div>
 
     <div class="container-fluid">
-        <div class="row d-flex align-items-center justify-content-center" style="height: 80vh">
-            <a href='#' onclick="prev()">
-                <img id="nextbutton" class="navbutton" src="prev.png">
-            </a>
-            <a href='#' onclick="next()">
-                <img class="img-eo" id="eo" src="pictures/Iceland/1.png">
-            </a>            
-            <a href='#' onclick="next()">
-                <img id="nextbutton" class="navbutton" src="next.png">
-            </a>
+        <div class="row">
+            <div class="col-sm-2">
+                <p>
+                    <a href="#" onclick="setsubdir('Iceland', 5)">Iceland</a>
+                    <br>
+                    <a href="#" onclick="setsubdir('Pantanal', 7)">Pantanal</a>
+                </p>
+            </div>
+            <div class="col-sm-8">
+                <div class="row d-flex align-items-center justify-content-center center-height">
+                    <a href='#' onclick="prev()">
+                        <img id="nextbutton" class="navbutton" src="prev.png">
+                    </a>
+                    <a href='#' onclick="next()">
+                        <img class="img-eo" id="eo" src="pictures/Iceland/1.png">
+                    </a>            
+                    <a href='#' onclick="next()">
+                        <img id="nextbutton" class="navbutton" src="next.png">
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-2 desc">
+                <h4 id="title">Title</h4>
+                <p id="description"></p>
+            </div>
         </div>
     </div>
 
