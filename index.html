@@ -3,6 +3,13 @@
 <head>
     <head>
 
+        <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+  
+        <script src="desc.js" type="text/javascript"></script>
+
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,12 +18,13 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     
         <link rel="stylesheet" href="style.css">
-        <title>jonathom</title>
+        
+        <title>EO Pictures</title>
       </head>
 
 </head>
 
-<body>
+<body onload="onload()">
 
     <div class="container-fluid">
         <h3>EO</h3>
@@ -29,9 +37,9 @@
         <div class="row">
             <div class="col-sm-2">
                 <p>
-                    <a href="#" onclick="setsubdir('Iceland', 14)">Iceland</a>
+                    <a href="#" onclick="setCollection('Iceland', iceland_desc, iceland_desc.nr)">Iceland</a>
                     <br>
-                    <a href="#" onclick="setsubdir('Pantanal', 7)">Pantanal</a>
+                    <a href="#" onclick="setCollection('Pantanal', 7)">Pantanal</a>
                 </p>
             </div>
             <div class="col-sm-8">
@@ -48,7 +56,7 @@
                 </div>
             </div>
             <div class="col-sm-2 desc">
-                <h4 id="title">Title</h4>
+                <h4 id="eo-title">Title</h4>
                 <p id="description">And description.</p>
             </div>
         </div>
@@ -59,20 +67,18 @@
     </div>
 
     <script>
+
+        setTitle = function(obj, nr) {
+            nr = nr - 1;
+            document.getElementById("eo-title").innerHTML = (obj.desc[nr].title);
+        }
   
         var img = document.getElementById("eo");
         var nr = 1;
-        /**pic.onclick = function(){
-            nr = nr + 1;
-            if (nr >= 5) {
-                nr = 1;
-            }
-            let link = "pictures/" + nr + ".jpg"
-            this.src = link;
-        }*/
         var subdir = "Iceland";
+        var desc = iceland_desc;
 
-        var maxpic = 14;
+        var maxpic = iceland_desc.nr;
 
         next = function(){
             nr = nr + 1;
@@ -81,7 +87,7 @@
             }
             let link = "pictures/" + subdir + "/" + nr + ".jpg";
             img.src = link;
-            console.log(link)
+            setTitle(desc, nr);
         }
 
         prev = function() {
@@ -91,19 +97,26 @@
             }
             let link = "pictures/" + subdir + "/" + nr + ".jpg";
             img.src = link;
+            setTitle(desc, nr);
         }
 
-        setsubdir = function(folder, mp) {
+        setCollection = function(folder, new_desc, mp) {
+            desc = new_desc;
             subdir = folder;
             maxpic = mp;
             let link = "pictures/" + subdir + "/1.jpg";
             img.src = link;
             nr = 1;
+            setTitle(desc, nr);
+        }
+
+        onload = function() {
+            setCollection("Iceland", iceland_desc, iceland_desc.nr)
+            setTitle(iceland_desc, 1)
         }
     </script>
     
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
