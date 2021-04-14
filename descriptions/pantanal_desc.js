@@ -1,5 +1,6 @@
-iceland_desc = {
-    "nr": 14,
+pantanal_desc = {
+    "nr": 5,
+    "col_desc": "This is a collection of satellite images acquired over Iceland. The rough landscape doesn't only look beautiful from down on the ground.",
     "desc": [
         {
             "nr": 1,
