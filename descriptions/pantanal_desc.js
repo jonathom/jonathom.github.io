@@ -1,6 +1,6 @@
 pantanal_desc = {
     "nr": 5,
-    "col_desc": "This is a collection of satellite images acquired over Iceland. The rough landscape doesn't only look beautiful from down on the ground.",
+    "col_desc": "In 2020, the Pantanal, the largest tropical wetlands of the world (wikipedia), were on fire. These are some pictures documenting the beauty and the descructive fire force at the same time.",
     "desc": [
         {
             "nr": 1,
