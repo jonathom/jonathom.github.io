@@ -1,6 +1,7 @@
 setTitle = function(obj, nr) {
     nr = nr - 1;
     document.getElementById("eo-title").innerHTML = (obj.desc[nr].title);
+    document.getElementById("eo-description").innerHTML = (obj.desc[nr].text);
 }
 
 var img = document.getElementById("eo");
@@ -46,8 +47,8 @@ prev = function() {
 
 setCollection = function(folder, new_desc, mp) {
     desc = new_desc;
-    subdir = folder;
     maxpic = mp;
+    subdir = folder;
     let link = "pictures/" + subdir + "/1.jpg";
     img.src = link;
     nr = 1;
