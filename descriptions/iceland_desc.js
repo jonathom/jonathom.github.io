@@ -64,7 +64,7 @@ iceland_desc = {
         },
         {
             "nr": 13,
-            "title": "Vesturland"
+            "title": "Vesturland",
             "text": "Seen here in true color."
         },
         {
