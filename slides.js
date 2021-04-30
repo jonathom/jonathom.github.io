@@ -46,6 +46,7 @@ prev = function() {
 }
 
 setCollection = function(folder, new_desc, mp) {
+    console.log("setCollection called")
     desc = new_desc;
     maxpic = mp;
     subdir = folder;
@@ -54,9 +55,24 @@ setCollection = function(folder, new_desc, mp) {
     nr = 1;
     setTitle(desc, nr);
     manageColDesc(new_desc);
+
+    /*document.addEventListener('readystatechange', event => { 
+
+        // When HTML/DOM elements are ready:
+        if (event.target.readyState === "interactive") {   //does same as:  ..addEventListener("DOMContentLoaded"..
+            alert("hi 1");
+        }
+    
+        // When window loaded ( external resources are loaded too- `css`,`src`, etc...) 
+        if (event.target.readyState === "complete") {
+            alert("hi 2");
+        }
+    }); */
 }
 
-onload = function() {
+onloadDo = function() {
     setCollection("Iceland", iceland_desc, iceland_desc.nr)
     setTitle(iceland_desc, 1)
 }
+
+
