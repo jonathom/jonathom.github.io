@@ -1,5 +1,6 @@
+/* # 09090f #eeede7 */
 body {
-    background-color: #eeede7;
+    background-color: #ebebeb;
     padding-bottom: 70px;
   }
 
@@ -25,11 +26,18 @@ body {
   
 h3 {
     color: black;
+    font-family: Georgia, Garamont, serif;
+}
+
+h4 {
+    color: black;
+    font-family: Georgia, Garamont, serif;
 }
   
 p {
-    font-family: verdana;
+    font-family: Georgia, Garamont, serif;
     font-size: 18px;
+    color: black;
 }
 
 .img-eo {
@@ -37,8 +45,13 @@ p {
     max-width: 45vw;
 }
 
-.desc {
-    margin-top: 50vh;
+.title-and-desc {
+    text-align: right;
+}
+
+.menu-x {
+    margin-left: 30px;
+    word-spacing: 100vw;
 }
 
 @media (max-width:575px) {
@@ -53,8 +66,14 @@ p {
         width: 5vw;
         height: 5vw;
     }
-    .desc {
-        margin-top: 0;
+    .menu-x {
+        margin-left: 30px;
+        word-spacing: 4px;
+    }
+    .title-and-desc {
+        text-align: justify;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
 
@@ -67,10 +86,10 @@ p {
 
 /* unvisited link */
 a:link {
-    color: red;
+    color: rgb(68, 68, 68);
   }
 a:visited {
-    color: green;
+    color: rgb(68,68,68);
   }
 a:hover {
     color: hotpink;

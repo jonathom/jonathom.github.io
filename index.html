@@ -29,7 +29,7 @@
 <body onload="onloadDo()">
 
     <div class="container-fluid">
-        <div class="row-fluid">
+        <div class="row-fluid" style="margin-left: 30px; margin-top: 30px;">
             <h3>
                 Tile Art
             </h3>
@@ -39,21 +39,18 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-2">
-                <div class="row-fluid">
+                <div class="row-fluid menu-x">
                     <p>
                         <a href="about.html">About</a>
-                        <br>
+                        
                         <a href="#" onclick="setCollection('Iceland', iceland_desc, iceland_desc.nr)">Iceland</a>
-                        <br>
+                        
                         <a href="#" onclick="setCollection('Pantanal', pantanal_desc, pantanal_desc.nr)">Pantanal</a>
-                        <br>
-                        <a href="#" onclick="setCollection('Ice', ice1_desc, ice1_desc.nr)">Ice</a>
+                        
+                        <a href="#" onclick="setCollection('Ice', ice1_desc, ice1_desc.nr)">Sea_Ice</a>
                     </p>
                 </div>
-                <div class="row-fluid">
-                    <h4 id="col_desc_title">Collection Description</h4>
-                    <p id="col_desc_desc">and description.</p>
-                </div>
+
             </div>
             <div class="col-sm-8">
                 <div class="row d-flex align-items-center justify-content-center center-height">
@@ -68,9 +65,14 @@
                     </a>
                 </div>
             </div>
-            <div class="col-sm-2 desc">
-                <h4 id="eo-title">Title</h4>
-                <p id="eo-description">And description.</p>                
+            <div class="col-sm-2">
+                <div class="row-fluid title-and-desc" style="margin-right: 30px;">
+                    <h4 id="col_desc_title">Collection Description</h4>
+                    <p id="col_desc_desc">and description.</p>
+
+                    <h4 id="eo-title">Title</h4>
+                    <p id="eo-description">And description.</p>   
+                </div>  
             </div>
         </div>
     </div>
