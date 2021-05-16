@@ -47,6 +47,14 @@ p {
 
 .title-and-desc {
     text-align: right;
+    float: right;
+}
+
+.img-desc {
+    width: 20px; 
+    height: 20px; 
+    margin-right: 2px;
+    float: left;
 }
 
 .menu-x {
@@ -72,6 +80,7 @@ p {
     }
     .title-and-desc {
         text-align: justify;
+        float: left;
         margin-left: 20px;
         margin-right: 20px;
     }
