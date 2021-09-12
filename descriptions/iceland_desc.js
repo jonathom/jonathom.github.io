@@ -30,7 +30,7 @@ iceland_desc = {
         {
             "nr": 6,
             "title": "Hydroelectric Dams",
-            "text": "Two rivers worth of melting water from the glacier Vatnajökull are dammed up for electricity."
+            "text": "Two rivers full of melting water from the glacier Vatnajökull are dammed up for electricity."
         },
         {
             "nr": 7,
@@ -45,16 +45,16 @@ iceland_desc = {
         {
             "nr": 9,
             "title": "Hofsjökull",
-            "text": "A big glacier in the midwest of the Island. Observed in mostly infratred channels, we are able to tell the threshold between fresher snow and ice flowing out from under it."
+            "text": "A big glacier in the midwest of the island. Observed are mostly infrared channels, and from the resulting color we are able to tell the threshold between fresher snow and ice flowing out from under it."
         },
         {
             "nr": 10,
-            "title": "Snow",
-            "text": "Mountain ridges."
+            "title": "Mountain ridges",
+            "text": ""
         },
         {
             "nr": 11,
-            "title": "No title",
+            "title": "",
             "text": ""
         },
         {
