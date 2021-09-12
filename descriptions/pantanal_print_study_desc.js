@@ -1,6 +1,6 @@
 pantanal_print_study_desc = {
     "nr": 23,
-    "col_desc": "A study on screen printing a satellite image. Many thanks to Thommy who did this project with me <3. \<br><br> Have a look through the collection to explore colors and patterns. The image was acquired over the Pantanal wetlands region, Brazil.",
+    "col_desc": "A study on screen printing a satellite image. Many thanks to Tommi who did this project with me <3. \<br><br> Have a look through the collection to explore colors and patterns. The image was acquired over the Pantanal wetlands region, Brazil.",
     "desc": [
         {
             "nr": 1,
