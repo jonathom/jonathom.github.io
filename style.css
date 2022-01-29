@@ -95,13 +95,13 @@ p {
 
 /* unvisited link */
 a:link {
-    color: rgb(68, 68, 68);
+    color: rgb(0, 0, 0);
   }
 a:visited {
-    color: rgb(68,68,68);
+    color: rgb(1, 11, 64);
   }
 a:hover {
-    color: hotpink;
+    color: rgb(174, 170, 96);
   }
 a:active {
     color: blue;

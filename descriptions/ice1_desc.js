@@ -18,8 +18,8 @@ ice1_desc = {
         },
         {
             "nr": 4,
-            "title": "",
-            "text": ""
+            "title": "Solidarity",
+            "text": "An ice swirl near Greenland. Have look at the Screen Printing collection for a printed version!"
         }
     ]
 }

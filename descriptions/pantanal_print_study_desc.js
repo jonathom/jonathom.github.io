@@ -1,126 +1,31 @@
 pantanal_print_study_desc = {
-    "nr": 23,
-    "col_desc": "A study on screen printing a satellite image. Many thanks to Tommi who did this project with me <3. \<br><br> Have a look through the collection to explore colors and patterns. The image was acquired over the Pantanal wetlands region, Brazil.",
+    "nr": 5,
+    "col_desc": "Screen-printing a satellite image is ultimate reproducability and uniqueness at the same time. A motive can be printed many times and yet, every print has its own little flaw. The technique allows to play with the colors not on a screen but in a live setting with an actual 'canvas', as you'll see in this collection. Starting here with:",
     "desc": [
         {
             "nr": 1,
-            "title": "Comparison",
-            "text": "The original vs. the four-color screen print. \<br> To highlight the structure, the infrared bands of the satellite were used instead of visible light."
+            "title": "Solidarity",
+            "text": "An ice swirl just off the Greenland coast. The original can be found in the 'Sea Ice' collection."
         },
         {
             "nr": 2,
-            "title": "Yellow",
-            "text": "Quick tour of the printing process: First, Yellow is printed."
+            "title": "Pantanal Wetlands",
+            "text": "This is a three-color print (Cyan, Magenta and Yellow) of the Pantanal Wetlands National Park when it was on fire back in 2020 (fire not seen here)."
         },
         {
             "nr": 3,
-            "title": "Yellow + Cyan",
-            "text": "Blue follows, creating green."
+            "title": "Purple",
+            "text": ""
         },
         {
             "nr": 4,
-            "title": "Yellow + Cyan + Magenta",
-            "text": "Red adds depth to the image. The more layers, the more offset is created."
+            "title": "Solidarity",
+            "text": "This motive was printed in black and purple. Prints might be available on demand."
         },
         {
             "nr": 5,
-            "title": "CMYK",
-            "text": "Together with black, the print is complete."
-        },
-        {
-            "nr": 6,
-            "title": "",
-            "text": "Enjoy all other print experiments!"
-        },
-        {
-            "nr": 7,
-            "title": "",
-            "text": ""
-        },
-        {
-            "nr": 8,
-            "title": "",
-            "text": ""
-        },
-        {
-            "nr": 9,
-            "title": "",
-            "text": ""
-        },
-        {
-            "nr": 10,
-            "title": "",
-            "text": ""
-        },
-        {
-            "nr": 11,
-            "title": "",
-            "text": ""
-        },
-        {
-            "nr": 12,
-            "title": "",
-            "text": ""
-        },
-        {
-            "nr": 13,
-            "title": "",
-            "text": ""
-        },
-        {
-            "nr": 14,
-            "title": "",
-            "text": ""
-        },
-        {
-            "nr": 15,
-            "title": "",
-            "text": ""
-        },
-        {
-            "nr": 16,
-            "title": "",
-            "text": ""
-        },
-        {
-            "nr": 17,
-            "title": "",
-            "text": ""
-        },
-        {
-            "nr": 18,
-            "title": "",
-            "text": ""
-        },
-        {
-            "nr": 19,
-            "title": "",
-            "text": ""
-        },
-        {
-            "nr": 20,
-            "title": "",
-            "text": ""
-        },
-        {
-            "nr": 21,
-            "title": "",
-            "text": ""
-        },
-        {
-            "nr": 22,
-            "title": "",
-            "text": ""
-        },
-        {
-            "nr": 23,
-            "title": "",
-            "text": ""
-        },
-        {
-            "nr": 24,
-            "title": "",
-            "text": ""
+            "title": "Comparison",
+            "text": "The original satellite image vs. the four-color screen print."
         }
     ]
 }
